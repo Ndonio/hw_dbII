@@ -11,31 +11,33 @@ import simpledb.record.RecordFile;
 import simpledb.record.Schema;
 import simpledb.record.TableInfo;
 import simpledb.server.SimpleDB;
-/*
-1. l’inserimento di una sequenza di 10000 record (con valori generati casualmente)
-2. la lettura di tutti i record
-3. l’eliminazione di una parte dei record (orientativamente il 50% dei record; ad esempio, quelli per cui il valore di
-un campo soddisfa una certa condizione)
-4. la scansione di tutti i record (con la lettura di un campo numerico e un qualche calcolo, ad esempio il valore
-medio)
-5. l’inserimento di altri 7000 record (sempre con valori generati casualmente)
-6. nuovamente la lettura di tutti i record
 
- *
- *
- *
- Init new database
-• Schema definition
-• Table info
-• Insert
-• Read all records
-• Delete half
-• Read and calculate
-• Insert again
-• Read all records
-
-
- */
+/**
+ * Utilizzando SimpleDB (o meglio, i suoi moduli di livello pi`u basso), scrivere una classe di test che esegue alcune operazioni su un file.
+ * 
+ * 1. l’inserimento di una sequenza di 10000 record (con valori generati casualmente)
+ * 2. la lettura di tutti i record
+ * 3. l’eliminazione di una parte dei record (orientativamente il 50% dei record; 
+ * 			ad esempio, quelli per cui il valore di un campo soddisfa una certa condizione)
+ * 4. la scansione di tutti i record (con la lettura di un campo numerico e un qualche calcolo, ad esempio il valore medio)
+ * 5. l’inserimento di altri 7000 record (sempre con valori generati casualmente)
+ * 6. nuovamente la lettura di tutti i record
+ * 
+ * Per ciascuna delle operazioni, stampare il numero di record letti e scritti e il numero di accessi a memoria secondaria
+ * per il file in questione 
+ * (anche in questo caso possono servire metodi che stampano le statistiche, che vanno per`o richiamati nella classe di test).
+ * 
+ * FLOW:
+ *  Init new database
+ *  Schema definition
+ *  Table info
+ *  Insert
+ *  Read all records
+ *  Delete half
+ *  Read and calculate
+ *  Insert again
+ *  Read all records
+ *  **/
 
 public class Domanda5 {
 	public static int FIRST_INS       = 10000;
@@ -87,12 +89,13 @@ public class Domanda5 {
 
 			tx = new Transaction();
 			RecordFile rf = new RecordFile(ti,tx);
-			for(int i=0; i<FIRST_INS;i++){
+			int i= 0;
+			for(i=0; i<FIRST_INS;i++){
 				int      id = getRandomInt(10);
 				int    code = getRandomInt(10);
 				String text = getRandomString(10);
 				//System.out.println("\n--------------------------------------");
-				System.out.println("Inserisco <"+id+", "+code+", "+text+">");
+				//System.out.println("Inserisco <"+id+", "+code+", "+text+">");
 				rf.insert();
 				//System.out.println("id");
 				rf.setInt("id", id);
@@ -105,16 +108,16 @@ public class Domanda5 {
 			} 
 			rf.close();
 			tx.commit();
-			System.out.println("------ "+FIRST_INS+" record added to "+ tblName+" ------");
-
+			System.out.println("------ "+i+" record added to "+ tblName+" ------");
+			
 			System.out.println(rf.recordFileStatsToString());
 			System.out.println(SimpleDB.fileMgr().getMapStats());
 
-
-			System.out.println("\n-------- Read all "+FIRST_INS+" records from"+tblName+" ----------");
+			System.out.println("\n-------- Read all "+i+" records from"+tblName+" ----------");
 			tx = new Transaction();
 			ti = new TableInfo(tblName, sch);
 			rf = new RecordFile(ti, tx);
+			i=0;
 			while (rf.next()) {
 				//System.out.println("\n--------------------------------------");
 				System.out.println("Reading <"+rf.getInt("id")+", "+rf.getInt("code")+", "+rf.getString("text")+">");
@@ -122,36 +125,44 @@ public class Domanda5 {
 				//System.out.println("code " + rf.getInt("code"));
 				//System.out.println("text " +rf.getString("text"));
 				//System.out.println("--------------------------------------\n");
+				i++;
 			}
 			rf.close();
 			tx.commit();
-			System.out.println("\n-------- "+FIRST_INS+" record read from "+tblName+" ----------");
+			System.out.println("\n-------- "+i+" record read from "+tblName+" ----------");
 
 			System.out.println(rf.recordFileStatsToString());
 			System.out.println(SimpleDB.fileMgr().getMapStats());
-
-
+			
 			System.out.println("\n-------- Delete "+HALF_DEL+" records from "+tblName+" ----------");
 
 			tx = new Transaction();
 			ti = new TableInfo(tblName, sch);
 			rf = new RecordFile(ti, tx);
-			int c =0;
-			while (rf.next()&&c<=HALF_DEL) {
-				rf.delete();
-				c++;
-				System.out.println("Deleting: <"+rf.getInt("id")+", "+rf.getInt("code")+", "+rf.getString("text")+">");
+			i =0;
+			while (rf.next()&&i<=HALF_DEL) {
+				if(rf.getInt("id")%2==0){//se ha un id pari
+					rf.delete();
+					i++;
+				}
+				//System.out.println("Deleting: <"+rf.getInt("id")+", "+rf.getInt("code")+", "+rf.getString("text")+">");
 			}
 			rf.close();
 			tx.commit();
+			System.out.println("\n-------- Deleted "+i+" records from "+tblName+" ----------");
 
-			System.out.println("\n-------- Read all "+(FIRST_INS-HALF_DEL)+" records from"+tblName+" ----------");
+			System.out.println(rf.recordFileStatsToString());
+			System.out.println(SimpleDB.fileMgr().getMapStats());
+
+			System.out.println("\n-------- Read all "+(FIRST_INS-i)+" records from"+tblName+" ----------");
 			tx = new Transaction();
 			ti = new TableInfo(tblName,sch);
 			rf = new RecordFile(ti,tx);
+			i=0;
 			while (rf.next()) {
+				i++;
 				//System.out.println("\n--------------------------------------");
-				System.out.println("Reading <"+rf.getInt("id")+", "+rf.getInt("code")+", "+rf.getString("text")+">");
+				//System.out.println("Reading <"+rf.getInt("id")+", "+rf.getInt("code")+", "+rf.getString("text")+">");
 				//System.out.println("id " + rf.getInt("id"));
 				//System.out.println("code " + rf.getInt("code"));
 				//System.out.println("text " +rf.getString("text"));
@@ -159,7 +170,7 @@ public class Domanda5 {
 			}
 			rf.close();
 			tx.commit();
-			System.out.println("\n-------- "+(FIRST_INS-HALF_DEL)+" record read from "+tblName+" ----------");
+			System.out.println("\n-------- "+i+" record read from "+tblName+" ----------");
 
 			System.out.println(rf.recordFileStatsToString());
 			System.out.println(SimpleDB.fileMgr().getMapStats());
@@ -169,12 +180,13 @@ public class Domanda5 {
 			tx = new Transaction();
 			ti = new TableInfo(tblName,sch);
 			rf = new RecordFile(ti,tx);
-			for(int i=0; i<SECOND_INS;i++){
+			i=0;
+			for(i=0; i<SECOND_INS;i++){
 				int      id = getRandomInt(10);
 				int    code = getRandomInt(10);
 				String text = getRandomString(10);
 				//System.out.println("\n--------------------------------------");
-				System.out.println("Inserisco <"+id+", "+code+", "+text+">");
+				//System.out.println("Inserisco <"+id+", "+code+", "+text+">");
 				rf.insert();
 				rf.setInt("id", id); //System.out.println("id");
 				rf.setInt("code", code); //System.out.println("code");
@@ -184,7 +196,7 @@ public class Domanda5 {
 			} 
 			rf.close();
 			tx.commit();
-			System.out.println("\n-------- "+SECOND_INS+" records added to "+tblName+"----------");
+			System.out.println("\n-------- "+i+" records added to "+tblName+"----------");
 
 			System.out.println(rf.recordFileStatsToString());
 			System.out.println(SimpleDB.fileMgr().getMapStats());
@@ -193,9 +205,11 @@ public class Domanda5 {
 			tx = new Transaction();
 			ti = new TableInfo(tblName,sch);
 			rf = new RecordFile(ti,tx);
+			i=0;
 			while (rf.next()) {
+				i++;
 				//System.out.println("\n--------------------------------------");
-				System.out.println("Leggo <"+rf.getInt("id")+", "+rf.getInt("code")+", "+rf.getString("text")+">");
+				//System.out.println("Leggo <"+rf.getInt("id")+", "+rf.getInt("code")+", "+rf.getString("text")+">");
 				//System.out.println("id " + rf.getInt("id"));
 				//System.out.println("code " + rf.getInt("code"));
 				//System.out.println("text " +rf.getString("text"));
@@ -203,8 +217,8 @@ public class Domanda5 {
 			}
 			rf.close();
 			tx.commit();
-			System.out.println("\n-------- All records were read from "+tblName+"----------");
-			
+			System.out.println("\n-------- "+i+" records were read from "+tblName+"----------");
+
 			System.out.println(rf.recordFileStatsToString());
 			System.out.println(SimpleDB.fileMgr().getMapStats());
 		}
