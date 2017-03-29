@@ -1,0 +1,29 @@
+Il Record Manager is occupa di dare una struttura ai record in un file. 
+Immaginiamo un file con tanti blocchi.
+Il record manager si occupa di dare una struttura a questi blocchi in questo file.
+Se voglio il record 44, ovviamente, il buffermanager non ne sa un cazzo, lui passa solo blocchi di cui gli viene data informazioni.
+
+Pensiamo ad un utente che vede la tabella.
+IL record manager sa come è immagazinata una tuple in uno specifico blocco.
+
+Ci osno delle scelte da fare:
+
+1) Ogni record è contenuto in un blocco oppure no (unspanned, spanned)
+Unspanned: Si spreca molto spazio. ma la gestione è molto più semplice.
+Spanned: ovviamente si risparmia spazio. inoltre i record possono essere tranquillamente più grandi di un blocco.
+			gestione = male.
+			
+2)Omogeneità dei record nei blocchi.
+Voglio tutti i record idi una tabella nello stesso blocco, oppure no.
+
+4) 
+Quanod dichiaramo i campi di una tabella ne dichiariamo un tipo (varchar, char, int, bigint . . .
+
+Una volta dichiarato lo schema, il record manager deve poter conoscere la struttura dei record e sapere che tipi di campi sn memorizzati nello schema.
+Inoltre, deve strutturare qst recornd in un certo modo. Solitamente deve stare attento al fatto che i campi di un certo tipo, spesso devono essere memorizzati ad un offset che è un multplo della loro dimensione, deve esserci un asorta di allinamento tra i vari campi del record.
+devono essere lasciate delle interruzioni fra i vari campi.
+Stessa cosa è vera per lo spazio che esiste fra due record.
+
+Spesso quello che si fa è scrivere in un record sul disco i campi in modo da dover usare il minimo numero possibile di interruzioni.
+
+
