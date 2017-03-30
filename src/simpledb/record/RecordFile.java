@@ -241,5 +241,17 @@ public class RecordFile {
 		st.append("\n-lastWriteR: " + this.lastWrittenRecord.toString());
 		return st.toString();
 	}
+	
+	public void resetStats(){
+		this.statsRecord = new HashMap<RID,BasicRecordStats>();
+		this.lastReadRecord = null;
+		this.lastWrittenRecord = null;
+	}
+
+	public Map<RID, BasicRecordStats> getStatsRecord() {
+		return statsRecord;
+	}
+	
+	
 
 }

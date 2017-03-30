@@ -57,13 +57,13 @@ public class IntermediateFileStats {
 	}
 	
 	public String toString(){
-		String rb = "\n - Block read   : ".concat(Integer.toString(this.blockRead))+"\n";
+		String rb = "\n - Block read   : ".concat(Integer.toString(this.blockRead))+"";
 		for(String str : this.readLog){
-			rb=rb.concat(" --->"+str+"\n");
+			rb=rb.concat(" \n--->"+str+"");
 		}
-		String wb = "\n - Block written: ".concat(Integer.toString(this.blockWritten))+"\n";
+		String wb = "\n - Block written: ".concat(Integer.toString(this.blockWritten))+"";
 		for(String str : this.writeLog){
-			wb=wb.concat(" --->"+str+"\n");
+			wb=wb.concat(" \n--->"+str+"");
 		}
 		return rb+wb;
 	}

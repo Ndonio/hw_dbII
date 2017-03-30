@@ -7,6 +7,7 @@ import java.nio.channels.FileChannel;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+import simpledb.server.SimpleDB;
 import simpledb.stats.IntermediateFileStats;
 
 /**
@@ -141,7 +142,8 @@ public class FileMgr{
       FileChannel fc = openFiles.get(filename);
       if (fc == null) {
          File dbTable = new File(dbDirectory, filename);
-         RandomAccessFile f = new RandomAccessFile(dbTable, "rws");
+         @SuppressWarnings("resource")
+		RandomAccessFile f = new RandomAccessFile(dbTable, "rws");
          fc = f.getChannel();
          openFiles.put(filename, fc);
       }
@@ -156,8 +158,8 @@ public class FileMgr{
    //TODO time
    private void updateBlockReadStats(Block b, ByteBuffer bb){
 	   String timestamp = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss.SSS").format(new Date());
-//	   String readLog = "["+timestamp+"]: "+ "<"+b.fileName()+","+b.number()+">" +":"+bb.toString();
-	   String readLog = "["+timestamp+"]: "+ "<"+b.fileName()+","+b.number()+">" +": ["+bb.position()+", "+bb.remaining()+"]";
+	   String readLog = "["+timestamp+"]: "+ "<"+b.fileName()+","+b.number()+">" +":"+bb.toString();
+//	   String readLog = "["+timestamp+"]: "+ "<"+b.fileName()+","+b.number()+">" +": ["+bb.position()+", "+bb.remaining()+"]";
 	   IntermediateFileStats temp = this.blockStats.get(b.fileName());
 	   temp.blkReadInc(); //incrementa il numero di blocchi letti per il file
 	   temp.putReadLog(readLog); //inserisci il log relativo
@@ -183,5 +185,26 @@ public class FileMgr{
 	   this.blockStats.clear();
 	   this.blockStats = new HashMap<String,IntermediateFileStats>();  
    }
+    
+   public String printStats(String additionalInfo){
+		Map<String,IntermediateFileStats> allStats = this.getMapStats();
+		StringBuilder rs= new StringBuilder("\n---------------- FILEs STATS ----------------\n");
+		rs.append("BUFFER SIZE : "+ SimpleDB.BUFFER_SIZE);
+		if(!(additionalInfo==null)){
+			rs.append(" - "+additionalInfo);
+		}
+		for (Map.Entry<String, IntermediateFileStats> entry : allStats.entrySet()) {
+		    rs.append("\n"+printBlockStats(entry.getKey(),entry.getValue()));
+		}
+        rs.append("\n--------------- END FILEs STATS ------------------");
+		return rs.toString();
+	}
+
+	private String printBlockStats(String filename, IntermediateFileStats stats){
+		StringBuilder res = new StringBuilder("______________________________________\n");
+		res.append("\n Stats for : "+filename+" \n"+stats.toString());
+		res.append("\n______________________________________");
+		return res.toString();
+	}
    
 }

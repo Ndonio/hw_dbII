@@ -5,12 +5,18 @@ import simpledb.tx.Transaction;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 
+import simpledb.file.FileMgr;
+import simpledb.record.RID;
 import simpledb.record.RecordFile;
 import simpledb.record.Schema;
 import simpledb.record.TableInfo;
 import simpledb.server.SimpleDB;
+import simpledb.stats.BasicRecordStats;
+import simpledb.stats.IntermediateFileStats;
 
 /**
  * Utilizzando SimpleDB (o meglio, i suoi moduli di livello pi`u basso), scrivere una classe di test che esegue alcune operazioni su un file.
@@ -47,8 +53,10 @@ public class Domanda5 {
 	public static void main(String[] args) {
 		initTest("testDB","prova",500,"naive");
 		initTest("testDB","prova",500,"clock");
-		initTest("testDB","prova",500,"fifo");
 		initTest("testDB","prova",500,"lru");
+		
+		initTest("testDB","prova",1000,"clock");
+		initTest("testDB","prova",1000,"lru");
 	}
 
 
@@ -110,9 +118,12 @@ public class Domanda5 {
 			tx.commit();
 			System.out.println("------ "+i+" record added to "+ tblName+" ------");
 			
-			System.out.println(rf.recordFileStatsToString());
-			System.out.println(SimpleDB.fileMgr().getMapStats());
-
+			printRecordStats(rf, null);
+			printFileStats(SimpleDB.fileMgr(),tx.toString());
+			
+			rf.resetStats();
+			SimpleDB.fileMgr().resetMapStats();
+			
 			System.out.println("\n-------- Read all "+i+" records from"+tblName+" ----------");
 			tx = new Transaction();
 			ti = new TableInfo(tblName, sch);
@@ -120,7 +131,7 @@ public class Domanda5 {
 			i=0;
 			while (rf.next()) {
 				//System.out.println("\n--------------------------------------");
-				System.out.println("Reading <"+rf.getInt("id")+", "+rf.getInt("code")+", "+rf.getString("text")+">");
+				//System.out.println("Reading <"+rf.getInt("id")+", "+rf.getInt("code")+", "+rf.getString("text")+">");
 				//System.out.println("id " + rf.getInt("id"));
 				//System.out.println("code " + rf.getInt("code"));
 				//System.out.println("text " +rf.getString("text"));
@@ -131,8 +142,11 @@ public class Domanda5 {
 			tx.commit();
 			System.out.println("\n-------- "+i+" record read from "+tblName+" ----------");
 
-			System.out.println(rf.recordFileStatsToString());
-			System.out.println(SimpleDB.fileMgr().getMapStats());
+			printRecordStats(rf, null);
+			printFileStats(SimpleDB.fileMgr(),tx.toString());
+			
+			rf.resetStats();
+			SimpleDB.fileMgr().resetMapStats();
 			
 			System.out.println("\n-------- Delete "+HALF_DEL+" records from "+tblName+" ----------");
 
@@ -151,9 +165,12 @@ public class Domanda5 {
 			tx.commit();
 			System.out.println("\n-------- Deleted "+i+" records from "+tblName+" ----------");
 
-			System.out.println(rf.recordFileStatsToString());
-			System.out.println(SimpleDB.fileMgr().getMapStats());
-
+			printRecordStats(rf, null);
+			printFileStats(SimpleDB.fileMgr(),tx.toString());
+			
+			rf.resetStats();
+			SimpleDB.fileMgr().resetMapStats();
+			
 			System.out.println("\n-------- Read all "+(FIRST_INS-i)+" records from"+tblName+" ----------");
 			tx = new Transaction();
 			ti = new TableInfo(tblName,sch);
@@ -172,9 +189,12 @@ public class Domanda5 {
 			tx.commit();
 			System.out.println("\n-------- "+i+" record read from "+tblName+" ----------");
 
-			System.out.println(rf.recordFileStatsToString());
-			System.out.println(SimpleDB.fileMgr().getMapStats());
-
+			printRecordStats(rf, null);
+			printFileStats(SimpleDB.fileMgr(),tx.toString());
+			
+			rf.resetStats();
+			SimpleDB.fileMgr().resetMapStats();
+			
 			System.out.println("\n-------- Add additional "+SECOND_INS+" records to "+tblName+"----------");
 
 			tx = new Transaction();
@@ -198,9 +218,12 @@ public class Domanda5 {
 			tx.commit();
 			System.out.println("\n-------- "+i+" records added to "+tblName+"----------");
 
-			System.out.println(rf.recordFileStatsToString());
-			System.out.println(SimpleDB.fileMgr().getMapStats());
-
+			printRecordStats(rf, null);
+			printFileStats(SimpleDB.fileMgr(),tx.toString());
+			
+			rf.resetStats();
+			SimpleDB.fileMgr().resetMapStats();
+			
 			System.out.println("\n-------- Read all records from "+tblName+"----------");
 			tx = new Transaction();
 			ti = new TableInfo(tblName,sch);
@@ -219,15 +242,46 @@ public class Domanda5 {
 			tx.commit();
 			System.out.println("\n-------- "+i+" records were read from "+tblName+"----------");
 
-			System.out.println(rf.recordFileStatsToString());
-			System.out.println(SimpleDB.fileMgr().getMapStats());
+			printRecordStats(rf, null);
+			printFileStats(SimpleDB.fileMgr(),tx.toString());
+			
+			rf.resetStats();
+			SimpleDB.fileMgr().resetMapStats();
+			
 		}
 		catch(Exception e ){
 			e.printStackTrace();
 		}
 	}
+	
+	/* Ho qualsiasi informazione che voglio sulle statistiche dei files */
+	public static void printFileStats(FileMgr fileMgr, String info){
+		//System.out.println(SimpleDB.fileMgr().printStats(info));
+		IntermediateFileStats stats= fileMgr.getMapStats().get("prova.tbl");
+		System.out.println("prova.tbl < blkRead: "+ stats.getBlockRead() +", blkWrite: "+ stats.getBlockWritten()+" >");
+	}
 
-
+	/*Ho qualsiasi informazione che voglio su un record */
+	public static void printRecordStats(RecordFile rf,String info){
+		//System.out.println(rf.recordFileStatsToString());
+		int totWrittenRec = 0;
+		int totReadRec    = 0;
+		int totWrittenFld = 0;
+		int totReadFld    = 0;
+		for (Map.Entry<RID, BasicRecordStats> entry : rf.getStatsRecord().entrySet()) {
+			totWrittenRec += entry.getValue().getWrittenRecord();
+			totReadRec += entry.getValue().getReadRecord();
+			totWrittenFld += entry.getValue().getWrittenFieldsRecord();
+			totReadFld += entry.getValue().getReadFieldsRecord();
+		}
+		StringBuilder res = new StringBuilder("Totali: ");
+		res.append(" < writtenRecords: "+totWrittenRec);
+		res.append(", readRecords: "+totReadRec);
+		res.append(", writtenFields : "+totWrittenFld);
+		res.append(", readFields: "+totReadFld +" >");
+		System.out.println(res.toString());
+	}
+	
 	public static void cleanDBFolder(File f) throws IOException {
 		if (f.isDirectory()) {
 			for (File c : f.listFiles())

@@ -15,7 +15,7 @@ class AdvancedBufferMgr {
 	private int numAvailable;
 
 	private int indexOfLastReplacedPage; //aggiunta stats
-	private static final boolean ELOQUENT = SimpleDB.CHATTY;//aggiunta stats
+	private static final boolean CHATTY = SimpleDB.CHATTY;//aggiunta stats
 
 	/**
 	 * Creates a buffer manager having the specified number 
@@ -58,28 +58,28 @@ class AdvancedBufferMgr {
 	 * @return the pinned buffer
 	 */
 	synchronized Buffer pin(Block blk) {
-		if(ELOQUENT)
+		if(CHATTY)
 			System.out.println("Devo fare pin di: "+ blk.toString());
 		Buffer buff = findExistingBuffer(blk);
 		if (buff == null) {
-			if(ELOQUENT)
+			if(CHATTY)
 				System.out.println("Blocco non in buffer ecco lo "+ this.toString());
 			buff = chooseUnpinnedBuffer();
 			if (buff == null)
 				return null;
-			if(ELOQUENT)
+			if(CHATTY)
 				System.out.println("Sostituisco: "+buff.toString());
 			buff.assignToBlock(blk);
 		}
 		else{
-			if(ELOQUENT)
+			if(CHATTY)
 				System.out.println("Blocco già in buffer");
 		}
 		if (!buff.isPinned())
 			numAvailable--;
 		buff.pin();
 		buff.setReadInTimestamp(Calendar.getInstance().getTimeInMillis());
-		if(ELOQUENT)
+		if(CHATTY)
 			System.out.println("È stato effettuato il pin! Nuovo "+this.toString());
 		return buff;
 	}
@@ -139,7 +139,7 @@ class AdvancedBufferMgr {
            return this.chooseUnpinnedBuffer_fifo();
         case "clock":
            return this.chooseUnpinnedBuffer_clock();
-        case "lpu":
+        case "lup":
         	return this.chooseUnpinnedBuffer_lup();
         default : 
         	return this.chooseUnpinnedBuffer_naive();
@@ -147,7 +147,7 @@ class AdvancedBufferMgr {
 	}
 
 	private Buffer chooseUnpinnedBuffer_naive(){
-		if(ELOQUENT)
+		if(CHATTY)
 			System.out.println("Strategia: NAIVE");
 		for (Buffer buff : bufferpool)
 			if (!buff.isPinned())
@@ -156,21 +156,21 @@ class AdvancedBufferMgr {
 	}
 
 	private Buffer chooseUnpinnedBuffer_clock(){
-		if(ELOQUENT)
+		if(CHATTY)
 			System.out.println("Strategia: CLOCK");
 
 		int printIndex = this.indexOfLastReplacedPage+1;
-		if(ELOQUENT)
+		if(CHATTY)
 			System.out.println("Ultima pagina usata: " + printIndex + "\n Dovrei scegliere: "+(printIndex+1));
 		for (int i=0;i<this.bufferpool.length;i++){
 			printIndex = this.updateIndexOfLastReplacedPage()+1;		
 			Buffer app = this.bufferpool[this.indexOfLastReplacedPage];
 			if (!app.isPinned()){
-				if(ELOQUENT)
+				if(CHATTY)
 					System.out.println("Scelta: "+printIndex);
 				return app;	
 			}
-			if(ELOQUENT)
+			if(CHATTY)
 				System.out.println("La pagina è pinnata da qualche altro thread... continuo la ricerca");
 		}
 		return null;
@@ -187,7 +187,7 @@ class AdvancedBufferMgr {
 	}
 
 	private Buffer chooseUnpinnedBuffer_fifo(){
-		if(ELOQUENT)
+		if(CHATTY)
 			System.out.println("Strategia: FIFO");
 		Buffer res = null;
 		Long timeRef = Calendar.getInstance().getTimeInMillis(); //NOW
@@ -203,7 +203,7 @@ class AdvancedBufferMgr {
 	}
 
 	private Buffer chooseUnpinnedBuffer_lru(){
-		if(ELOQUENT)
+		if(CHATTY)
 			System.out.println("Strategia: LRU");
 		Buffer res = null;
 		Long timeRef = Calendar.getInstance().getTimeInMillis(); //NOW
@@ -219,7 +219,7 @@ class AdvancedBufferMgr {
 	}
 
 	private Buffer chooseUnpinnedBuffer_lup(){
-		if(ELOQUENT)
+		if(CHATTY)
 			System.out.println("Strategia: LUP");
 		Buffer res = null;
 		int pins = this.bufferpool[0].getNumOfPins();
