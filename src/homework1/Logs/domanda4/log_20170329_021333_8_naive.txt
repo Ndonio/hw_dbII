@@ -1,0 +1,3648 @@
+new transaction: 1
+recovering existing database
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: EMPTY
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 1, 1490746413253, 1490746413357>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746413358, 1490746413357>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 0, 0, 1, 1490746413358, 1490746413357>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 0, 1, 1, 1490746413358, 1490746413358>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 0, 0, 1, 1490746413359, 1490746413358>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413359, 1490746413358>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 1, 1, 1, 1490746413359, 1490746413359>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 1, 0, 1, 1490746413359, 1490746413359>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413359, 1490746413359>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 2, 1, 1, 1490746413359, 1490746413359>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 2, 0, 1, 1490746413359, 1490746413359>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413359, 1490746413359>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 1, 1, 1490746413359, 1490746413360>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746413360, 1490746413360>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413360, 1490746413360>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 4, 1, 1, 1490746413360, 1490746413360>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 4, 0, 1, 1490746413360, 1490746413360>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413360, 1490746413360>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 5, 1, 1, 1490746413360, 1490746413361>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 5, 0, 1, 1490746413361, 1490746413361>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413361, 1490746413361>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 6, 1, 1, 1490746413361, 1490746413361>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 6, 0, 1, 1490746413361, 1490746413361>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413361, 1490746413361>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 1, 1, 1490746413361, 1490746413362>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746413362, 1490746413362>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413362, 1490746413362>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 8, 1, 1, 1490746413362, 1490746413362>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 8, 0, 1, 1490746413362, 1490746413362>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413362, 1490746413362>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 9, 1, 1, 1490746413362, 1490746413362>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 9, 0, 1, 1490746413362, 1490746413362>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413362, 1490746413362>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 1, 1490746413362, 1490746413363>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 2, 2, 1490746413362, 1490746413363>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413253, 1490746413363>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413363, 1490746413363>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413363, 1490746413363>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413363, 1490746413364>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413364, 1490746413364>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413364, 1490746413364>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413364, 1490746413364>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413364, 1490746413364>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413364, 1490746413364>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413364, 1490746413364>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413365, 1490746413364>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413365, 1490746413364>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413365, 1490746413365>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413365, 1490746413365>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413365, 1490746413365>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413365, 1490746413365>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413365, 1490746413365>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413365, 1490746413365>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413365, 1490746413366>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413366, 1490746413366>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413366, 1490746413366>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413366, 1490746413366>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413366, 1490746413366>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413366, 1490746413366>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413366, 1490746413366>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413366, 1490746413366>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413366, 1490746413366>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 2, 1490746413363, 1490746413363>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413366, 1490746413367>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 2, 3, 1490746413363, 1490746413367>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413367, 1490746413367>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 3, 1490746413367, 1490746413367>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413367, 1490746413367>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413367, 1490746413367>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 3, 1490746413367, 1490746413367>
+  2)page: <tblcat.tbl, 1, 1, 1, 1490746413367, 1490746413367>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 2, 4, 1490746413367, 1490746413369>
+  2)page: <tblcat.tbl, 1, 0, 1, 1490746413368, 1490746413367>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <tblcat.tbl, 1, 0, 1, 1490746413368, 1490746413367>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 1, 0, 1, 1490746413368, 1490746413367>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413368, 1490746413369>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413370, 1490746413369>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413370, 1490746413369>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413370, 1490746413370>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413370, 1490746413370>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413370, 1490746413370>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413370, 1490746413370>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413371, 1490746413370>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413371, 1490746413370>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413371, 1490746413371>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413371, 1490746413371>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413371, 1490746413371>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413371, 1490746413371>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413372, 1490746413371>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413372, 1490746413371>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413372, 1490746413372>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413372, 1490746413372>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413372, 1490746413372>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413372, 1490746413372>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413372, 1490746413372>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413372, 1490746413372>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413372, 1490746413373>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413373, 1490746413373>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413373, 1490746413373>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413373, 1490746413373>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413373, 1490746413373>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413373, 1490746413373>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413373, 1490746413374>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413374, 1490746413374>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413374, 1490746413374>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413374, 1490746413374>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413374, 1490746413374>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413374, 1490746413374>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413374, 1490746413374>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413374, 1490746413374>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413374, 1490746413374>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413374, 1490746413374>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413374, 1490746413374>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413374, 1490746413374>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413374, 1490746413375>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413375, 1490746413375>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413375, 1490746413375>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413375, 1490746413375>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413375, 1490746413375>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413375, 1490746413375>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413375, 1490746413375>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413375, 1490746413375>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413375, 1490746413375>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413375, 1490746413375>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413376, 1490746413375>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413376, 1490746413375>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413376, 1490746413376>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413376, 1490746413376>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413376, 1490746413376>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413376, 1490746413376>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413376, 1490746413376>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413376, 1490746413376>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 4, 1490746413369, 1490746413369>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413376, 1490746413376>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 2, 5, 1490746413369, 1490746413376>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413376, 1490746413376>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413376, 1490746413376>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413376, 1490746413376>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413376, 1490746413377>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413377, 1490746413377>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413377, 1490746413377>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413377, 1490746413377>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413377, 1490746413377>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413377, 1490746413377>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413377, 1490746413377>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413377, 1490746413377>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413377, 1490746413377>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413377, 1490746413378>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413378, 1490746413378>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413378, 1490746413378>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413378, 1490746413378>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413378, 1490746413378>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413378, 1490746413378>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413378, 1490746413378>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413378, 1490746413378>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413378, 1490746413378>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413378, 1490746413379>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413379, 1490746413379>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413379, 1490746413379>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413379, 1490746413379>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413379, 1490746413379>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413379, 1490746413379>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413379, 1490746413379>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413379, 1490746413379>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413379, 1490746413379>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413379, 1490746413379>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: viewcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413379, 1490746413379>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413379, 1490746413379>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 5, 1490746413377, 1490746413376>
+  2)page: <viewcat.tbl, 0, 1, 1, 1490746413379, 1490746413380>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 2, 6, 1490746413377, 1490746413380>
+  2)page: <viewcat.tbl, 0, 0, 1, 1490746413380, 1490746413380>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <viewcat.tbl, 0, 0, 1, 1490746413380, 1490746413380>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <viewcat.tbl, 0, 0, 1, 1490746413380, 1490746413380>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413380, 1490746413380>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413380, 1490746413380>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413380, 1490746413380>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413380, 1490746413380>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413381, 1490746413380>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413381, 1490746413380>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413381, 1490746413381>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413381, 1490746413381>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413381, 1490746413381>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413381, 1490746413381>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413381, 1490746413381>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413381, 1490746413381>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413381, 1490746413381>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413382, 1490746413381>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413382, 1490746413381>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413382, 1490746413382>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413382, 1490746413382>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413382, 1490746413382>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413382, 1490746413382>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413382, 1490746413382>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413382, 1490746413382>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413382, 1490746413382>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413382, 1490746413382>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413382, 1490746413382>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413382, 1490746413383>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413383, 1490746413383>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413383, 1490746413383>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413383, 1490746413383>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: idxcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413383, 1490746413383>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413383, 1490746413383>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 6, 1490746413380, 1490746413380>
+  2)page: <idxcat.tbl, 0, 1, 1, 1490746413383, 1490746413383>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 2, 7, 1490746413380, 1490746413383>
+  2)page: <idxcat.tbl, 0, 0, 1, 1490746413383, 1490746413383>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <idxcat.tbl, 0, 0, 1, 1490746413383, 1490746413383>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <idxcat.tbl, 0, 0, 1, 1490746413383, 1490746413383>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413383, 1490746413384>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413384, 1490746413384>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413384, 1490746413384>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413384, 1490746413384>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413384, 1490746413384>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413384, 1490746413384>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413384, 1490746413384>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413384, 1490746413384>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413384, 1490746413384>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413384, 1490746413385>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413385, 1490746413385>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413385, 1490746413385>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413385, 1490746413385>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413385, 1490746413385>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413385, 1490746413385>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413385, 1490746413385>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413385, 1490746413385>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413385, 1490746413385>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413385, 1490746413386>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413386, 1490746413386>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413386, 1490746413386>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413386, 1490746413386>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413386, 1490746413386>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413386, 1490746413386>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413386, 1490746413386>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413387, 1490746413386>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413387, 1490746413386>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413387, 1490746413387>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: student.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413387, 1490746413387>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413387, 1490746413387>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <student.tbl, 0, 1, 1, 1490746413387, 1490746413387>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: student.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <student.tbl, 0, 0, 1, 1490746413387, 1490746413387>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <student.tbl, 0, 0, 1, 1490746413387, 1490746413387>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <student.tbl, 1, 1, 1, 1490746413387, 1490746413388>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: student.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <student.tbl, 1, 0, 1, 1490746413388, 1490746413388>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <student.tbl, 1, 0, 1, 1490746413388, 1490746413388>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 7, 1490746413383, 1490746413383>
+  2)page: <student.tbl, 2, 1, 1, 1490746413388, 1490746413388>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 2, 8, 1490746413383, 1490746413388>
+  2)page: <student.tbl, 2, 0, 1, 1490746413388, 1490746413388>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <student.tbl, 2, 0, 1, 1490746413388, 1490746413388>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <student.tbl, 2, 0, 1, 1490746413388, 1490746413388>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413388, 1490746413388>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413389, 1490746413388>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413389, 1490746413388>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413389, 1490746413389>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413389, 1490746413389>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413389, 1490746413389>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413389, 1490746413389>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413389, 1490746413389>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413389, 1490746413389>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413389, 1490746413390>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413390, 1490746413390>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413390, 1490746413390>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413390, 1490746413390>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413390, 1490746413390>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413390, 1490746413390>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413390, 1490746413390>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413390, 1490746413390>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413390, 1490746413390>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413390, 1490746413391>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413391, 1490746413391>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413391, 1490746413391>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413391, 1490746413391>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413391, 1490746413391>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413391, 1490746413391>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413391, 1490746413391>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413391, 1490746413391>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413391, 1490746413391>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413391, 1490746413392>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: dept.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413392, 1490746413392>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413392, 1490746413392>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 8, 1490746413388, 1490746413388>
+  2)page: <dept.tbl, 0, 1, 1, 1490746413392, 1490746413392>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 8, 1490746413392, 1490746413388>
+  2)page: <dept.tbl, 0, 0, 1, 1490746413392, 1490746413392>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 0, 0, 8, 1490746413392, 1490746413388>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 1, 1490746413392, 1490746413392>
+  2)page: <dept.tbl, 0, 0, 1, 1490746413392, 1490746413392>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 1, 1490746413392, 1490746413392>
+  2)page: <dept.tbl, 0, 0, 1, 1490746413392, 1490746413392>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <dept.tbl, 0, 0, 1, 1490746413392, 1490746413392>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 1, 1490746413392, 1490746413392>
+  2)page: <tblcat.tbl, 0, 1, 1, 1490746413392, 1490746413393>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 1 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 2, 2, 1490746413392, 1490746413415>
+  2)page: <tblcat.tbl, 0, 0, 1, 1490746413414, 1490746413393>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <tblcat.tbl, 0, 0, 1, 1490746413414, 1490746413393>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 0, 0, 1, 1490746413414, 1490746413393>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413414, 1490746413415>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413415, 1490746413415>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413415, 1490746413415>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413415, 1490746413415>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413415, 1490746413415>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413415, 1490746413415>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413415, 1490746413415>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413415, 1490746413415>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413415, 1490746413415>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413415, 1490746413416>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413416, 1490746413416>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413416, 1490746413416>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413416, 1490746413416>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413416, 1490746413416>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413416, 1490746413416>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413416, 1490746413416>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413416, 1490746413416>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413416, 1490746413416>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413416, 1490746413416>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413417, 1490746413416>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413417, 1490746413416>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413417, 1490746413417>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413417, 1490746413417>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413417, 1490746413417>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413417, 1490746413417>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413417, 1490746413417>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413417, 1490746413417>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413417, 1490746413417>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: course.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413417, 1490746413417>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413417, 1490746413417>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <course.tbl, 0, 1, 1, 1490746413417, 1490746413418>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: course.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <course.tbl, 0, 0, 1, 1490746413418, 1490746413418>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <course.tbl, 0, 0, 1, 1490746413418, 1490746413418>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <course.tbl, 1, 1, 1, 1490746413418, 1490746413418>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <course.tbl, 1, 0, 1, 1490746413418, 1490746413418>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <course.tbl, 1, 0, 1, 1490746413418, 1490746413418>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 2, 1490746413415, 1490746413415>
+  2)page: <tblcat.tbl, 0, 1, 1, 1490746413418, 1490746413418>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 1 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 2, 3, 1490746413415, 1490746413419>
+  2)page: <tblcat.tbl, 0, 0, 1, 1490746413418, 1490746413418>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <tblcat.tbl, 0, 0, 1, 1490746413418, 1490746413418>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 0, 0, 1, 1490746413418, 1490746413418>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413418, 1490746413419>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413419, 1490746413419>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413419, 1490746413419>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413419, 1490746413419>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413419, 1490746413419>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413419, 1490746413419>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413419, 1490746413419>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413420, 1490746413419>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413420, 1490746413419>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413420, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413420, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413420, 1490746413420>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413420, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413420, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413420, 1490746413420>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413420, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413420, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413420, 1490746413420>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413420, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413420, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413420, 1490746413420>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413420, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413421, 1490746413420>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413421, 1490746413420>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413421, 1490746413421>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413421, 1490746413421>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413421, 1490746413421>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413421, 1490746413421>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: section.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413421, 1490746413421>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413421, 1490746413421>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <section.tbl, 0, 1, 1, 1490746413421, 1490746413422>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <section.tbl, 0, 0, 1, 1490746413422, 1490746413422>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <section.tbl, 0, 0, 1, 1490746413422, 1490746413422>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 3, 1490746413419, 1490746413419>
+  2)page: <tblcat.tbl, 0, 1, 1, 1490746413422, 1490746413422>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 1 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 2, 4, 1490746413419, 1490746413423>
+  2)page: <tblcat.tbl, 0, 0, 1, 1490746413422, 1490746413422>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <tblcat.tbl, 0, 0, 1, 1490746413422, 1490746413422>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 0, 0, 1, 1490746413422, 1490746413422>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746413422, 1490746413424>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746413424, 1490746413424>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413424, 1490746413424>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 1, 1, 1, 1490746413424, 1490746413424>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 1, 0, 1, 1490746413424, 1490746413424>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413424, 1490746413424>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 2, 1, 1, 1490746413424, 1490746413425>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 2, 0, 1, 1490746413425, 1490746413425>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413425, 1490746413425>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 3, 1, 1, 1490746413425, 1490746413425>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 3, 0, 1, 1490746413425, 1490746413425>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413425, 1490746413425>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746413425, 1490746413425>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746413425, 1490746413425>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413425, 1490746413425>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746413425, 1490746413425>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746413425, 1490746413425>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413425, 1490746413425>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 6, 1, 1, 1490746413425, 1490746413426>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 6, 0, 1, 1490746413426, 1490746413426>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413426, 1490746413426>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 7, 1, 1, 1490746413426, 1490746413426>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 7, 0, 1, 1490746413426, 1490746413426>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413426, 1490746413426>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746413426, 1490746413426>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746413426, 1490746413426>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413426, 1490746413426>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 9, 1, 1, 1490746413426, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: enroll.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <fldcat.tbl, 9, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413427, 1490746413427>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 1, 4, 1490746413423, 1490746413423>
+  2)page: <enroll.tbl, 0, 1, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 1, 0, 4, 1490746413427, 1490746413423>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 1, 0, 4, 1490746413427, 1490746413423>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 1, 1490746413427, 1490746413428>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746413428, 1490746413428>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 0, 0, 1, 1490746413428, 1490746413428>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 0, 1, 1, 1490746413428, 1490746413428>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 0, 0, 1, 1490746413429, 1490746413428>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413429, 1490746413428>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 1, 1, 1, 1490746413429, 1490746413429>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 1, 0, 1, 1490746413429, 1490746413429>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413429, 1490746413429>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 2, 1, 1, 1490746413429, 1490746413429>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 2, 0, 1, 1490746413429, 1490746413429>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413429, 1490746413429>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 1, 1, 1490746413429, 1490746413430>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746413430, 1490746413430>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413430, 1490746413430>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 4, 1, 1, 1490746413430, 1490746413430>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 4, 0, 1, 1490746413430, 1490746413430>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413430, 1490746413430>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 5, 1, 1, 1490746413430, 1490746413430>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 5, 0, 1, 1490746413430, 1490746413430>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413430, 1490746413430>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 6, 1, 1, 1490746413430, 1490746413430>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 6, 0, 1, 1490746413430, 1490746413430>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413430, 1490746413430>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 1, 1, 1490746413430, 1490746413431>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746413431, 1490746413431>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413431, 1490746413431>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 8, 1, 1, 1490746413431, 1490746413431>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 8, 0, 1, 1490746413431, 1490746413431>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413431, 1490746413431>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 9, 1, 1, 1490746413431, 1490746413431>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+transaction 1 committed
+new transaction: 2
+LOG FOR TRANSACTION: simpledb.tx.Transaction@14ae5a5
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 9, 0, 1, 1490746413431, 1490746413431>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413431, 1490746413431>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 1, 1490746413431, 1490746413480>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746413481, 1490746413480>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 0, 0, 1, 1490746413481, 1490746413480>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 0, 1, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 0, 0, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413481, 1490746413481>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 1, 1, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 1, 0, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413481, 1490746413481>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 2, 1, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 2, 0, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413481, 1490746413481>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 1, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413481, 1490746413481>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 4, 1, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 4, 0, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413481, 1490746413481>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 5, 1, 1, 1490746413481, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 5, 0, 1, 1490746413482, 1490746413481>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413482, 1490746413481>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 6, 1, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 6, 0, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413482, 1490746413482>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 1, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413482, 1490746413482>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 8, 1, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 8, 0, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413482, 1490746413482>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 9, 1, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: viewcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 9, 0, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413482, 1490746413482>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <viewcat.tbl, 0, 1, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <viewcat.tbl, 0, 0, 1, 1490746413482, 1490746413482>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <viewcat.tbl, 0, 0, 1, 1490746413482, 1490746413482>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 1, 1490746413482, 1490746413483>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746413483, 1490746413483>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <tblcat.tbl, 0, 0, 1, 1490746413483, 1490746413483>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 0, 1, 1, 1490746413483, 1490746413483>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 0, 0, 1, 1490746413483, 1490746413483>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746413483, 1490746413483>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 1, 1, 1, 1490746413483, 1490746413483>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 1, 0, 1, 1490746413483, 1490746413483>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746413483, 1490746413483>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 2, 1, 1, 1490746413483, 1490746413501>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 2, 0, 1, 1490746413502, 1490746413501>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746413502, 1490746413501>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 1, 1, 1490746413502, 1490746413502>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746413502, 1490746413502>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746413502, 1490746413502>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 4, 1, 1, 1490746413502, 1490746413502>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 4, 0, 1, 1490746413502, 1490746413502>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746413502, 1490746413502>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 5, 1, 1, 1490746413502, 1490746413502>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 5, 0, 1, 1490746413502, 1490746413502>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746413502, 1490746413502>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 6, 1, 1, 1490746413502, 1490746413503>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 6, 0, 1, 1490746413503, 1490746413503>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746413503, 1490746413503>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 1, 1, 1490746413503, 1490746413503>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746413503, 1490746413503>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746413503, 1490746413503>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 8, 1, 1, 1490746413503, 1490746413503>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 8, 0, 1, 1490746413503, 1490746413503>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746413503, 1490746413503>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 9, 1, 1, 1490746413503, 1490746413503>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: student.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 9, 0, 1, 1490746413503, 1490746413503>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746413503, 1490746413503>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <student.tbl, 0, 1, 1, 1490746413503, 1490746413504>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: student.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <student.tbl, 0, 0, 1, 1490746413505, 1490746413504>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <student.tbl, 0, 0, 1, 1490746413505, 1490746413504>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <student.tbl, 1, 1, 1, 1490746413505, 1490746413505>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: student.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <student.tbl, 1, 0, 1, 1490746413505, 1490746413505>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: NAIVE
+Sostituisco: page: <student.tbl, 1, 0, 1, 1490746413505, 1490746413505>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <student.tbl, 2, 1, 1, 1490746413505, 1490746413506>
+  2)page: <enroll.tbl, 0, 0, 1, 1490746413427, 1490746413427>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+----------------STATS----------------
+
+BUFFER SIZE : 8
+for transaction: simpledb.tx.Transaction@14ae5a5
+______________________________________
+Stats for : fldcat.tbl 
+
+ - Block read   : 20
+ --->[2017/03/29 02:13:33.481]: <fldcat.tbl,0>: [400, 0]
+ --->[2017/03/29 02:13:33.481]: <fldcat.tbl,1>: [400, 0]
+ --->[2017/03/29 02:13:33.481]: <fldcat.tbl,2>: [400, 0]
+ --->[2017/03/29 02:13:33.481]: <fldcat.tbl,3>: [400, 0]
+ --->[2017/03/29 02:13:33.481]: <fldcat.tbl,4>: [400, 0]
+ --->[2017/03/29 02:13:33.481]: <fldcat.tbl,5>: [400, 0]
+ --->[2017/03/29 02:13:33.482]: <fldcat.tbl,6>: [400, 0]
+ --->[2017/03/29 02:13:33.482]: <fldcat.tbl,7>: [400, 0]
+ --->[2017/03/29 02:13:33.482]: <fldcat.tbl,8>: [400, 0]
+ --->[2017/03/29 02:13:33.482]: <fldcat.tbl,9>: [400, 0]
+ --->[2017/03/29 02:13:33.483]: <fldcat.tbl,0>: [400, 0]
+ --->[2017/03/29 02:13:33.483]: <fldcat.tbl,1>: [400, 0]
+ --->[2017/03/29 02:13:33.483]: <fldcat.tbl,2>: [400, 0]
+ --->[2017/03/29 02:13:33.502]: <fldcat.tbl,3>: [400, 0]
+ --->[2017/03/29 02:13:33.502]: <fldcat.tbl,4>: [400, 0]
+ --->[2017/03/29 02:13:33.502]: <fldcat.tbl,5>: [400, 0]
+ --->[2017/03/29 02:13:33.503]: <fldcat.tbl,6>: [400, 0]
+ --->[2017/03/29 02:13:33.503]: <fldcat.tbl,7>: [400, 0]
+ --->[2017/03/29 02:13:33.503]: <fldcat.tbl,8>: [400, 0]
+ --->[2017/03/29 02:13:33.503]: <fldcat.tbl,9>: [400, 0]
+
+ - Block written: 0
+
+______________________________________
+______________________________________
+Stats for : tblcat.tbl 
+
+ - Block read   : 2
+ --->[2017/03/29 02:13:33.480]: <tblcat.tbl,0>: [400, 0]
+ --->[2017/03/29 02:13:33.483]: <tblcat.tbl,0>: [400, 0]
+
+ - Block written: 0
+
+______________________________________
+______________________________________
+Stats for : student.tbl 
+
+ - Block read   : 3
+ --->[2017/03/29 02:13:33.504]: <student.tbl,0>: [400, 0]
+ --->[2017/03/29 02:13:33.505]: <student.tbl,1>: [400, 0]
+ --->[2017/03/29 02:13:33.506]: <student.tbl,2>: [400, 0]
+
+ - Block written: 0
+
+______________________________________
+______________________________________
+Stats for : viewcat.tbl 
+
+ - Block read   : 1
+ --->[2017/03/29 02:13:33.482]: <viewcat.tbl,0>: [400, 0]
+
+ - Block written: 0
+
+______________________________________
+-------------------------------------
+-------------------------------------
+transaction 2 committed
+--------- Student's names---------1) joe
+2) amy
+3) max
+4) sue
+5) bob
+6) kim
+7) art
+8) pat
+9) lee
+10) pino
+11) anto
+12) mich
+13) mino
+14) male
+15) andr
+16) laur
+17) umbi
+18) fran
+19) mori
+20) silv
+21) anna
+22) lena
+23) mich
+---------End Student's names-----------

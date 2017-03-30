@@ -1,0 +1,888 @@
+new transaction: 1
+recovering existing database
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: EMPTY
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: FIFO
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 1, 1, 1490746458731, 1490746458846>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: EMPTY
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: FIFO
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 1, 1, 1490746458732, 1490746458847>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: EMPTY
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: FIFO
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 1, 1, 1490746458732, 1490746458847>
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: EMPTY
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: FIFO
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 1, 1, 1490746458732, 1490746458848>
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: EMPTY
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: FIFO
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 1, 1, 1490746458732, 1490746458848>
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: EMPTY
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: FIFO
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 1, 1, 1490746458732, 1490746458849>
+  7)page: EMPTY
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: EMPTY
+  8)page: EMPTY
+Strategia: FIFO
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 1, 1, 1490746458732, 1490746458849>
+  8)page: EMPTY
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: EMPTY
+Strategia: FIFO
+Sostituisco: page: EMPTY
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 1, 1, 1490746458732, 1490746458850>
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Strategia: FIFO
+Sostituisco: page: <tblcat.tbl, 0, 0, 1, 1490746458846, 1490746458846>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 1, 1, 1490746458846, 1490746458850>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746458847, 1490746458847>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746458847, 1490746458851>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746458848, 1490746458847>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 1, 1, 1490746458848, 1490746458851>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746458848, 1490746458848>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 1, 1490746458848, 1490746458852>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 2, 2, 1490746458848, 1490746458852>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746458849, 1490746458848>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 1, 1, 1490746458849, 1490746458853>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746458849, 1490746458849>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 1, 1, 1490746458849, 1490746458853>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746458850, 1490746458849>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 1, 1, 1490746458850, 1490746458854>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746458850, 1490746458850>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 1, 1, 1490746458850, 1490746458854>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458854, 1490746458854>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746458850, 1490746458850>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458854, 1490746458854>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 1, 1, 1490746458850, 1490746458855>
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458854, 1490746458854>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746458851, 1490746458851>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458854, 1490746458854>
+  2)page: <fldcat.tbl, 5, 1, 1, 1490746458851, 1490746458855>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458854, 1490746458854>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746458855, 1490746458855>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746458852, 1490746458851>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458854, 1490746458854>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746458855, 1490746458855>
+  3)page: <fldcat.tbl, 6, 1, 1, 1490746458852, 1490746458855>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458854, 1490746458854>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746458855, 1490746458855>
+  3)page: <fldcat.tbl, 6, 0, 1, 1490746458856, 1490746458855>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746458854, 1490746458854>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 1, 1, 1490746458854, 1490746458856>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746458855, 1490746458855>
+  3)page: <fldcat.tbl, 6, 0, 1, 1490746458856, 1490746458855>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 5, 0, 1, 1490746458855, 1490746458855>
+  3)page: <fldcat.tbl, 6, 0, 1, 1490746458856, 1490746458855>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746458855, 1490746458855>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746458855, 1490746458856>
+  3)page: <fldcat.tbl, 6, 0, 1, 1490746458856, 1490746458855>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 6, 0, 1, 1490746458856, 1490746458855>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 6, 0, 1, 1490746458856, 1490746458855>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 1, 1, 1490746458856, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 2, 1490746458852, 1490746458852>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 2, 3, 1490746458852, 1490746458857>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: tblcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 3, 1490746458857, 1490746458857>
+  5)page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 0, 0, 1, 1490746458853, 1490746458853>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 3, 1490746458857, 1490746458857>
+  5)page: <tblcat.tbl, 1, 1, 1, 1490746458853, 1490746458857>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: tblcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 2, 4, 1490746458857, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 1, 0, 1, 1490746458853, 1490746458853>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 1, 1, 1490746458853, 1490746458858>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 2, 0, 1, 1490746458854, 1490746458854>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 1, 1, 1490746458854, 1490746458859>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746458855, 1490746458855>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 1, 1, 1490746458855, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746458856, 1490746458856>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 1, 1, 1490746458856, 1490746458860>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458860, 1490746458860>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746458857, 1490746458856>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458860, 1490746458860>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746458857, 1490746458860>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458860, 1490746458860>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458861, 1490746458860>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746458857, 1490746458857>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458860, 1490746458860>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458861, 1490746458860>
+  3)page: <fldcat.tbl, 5, 1, 1, 1490746458857, 1490746458861>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458860, 1490746458860>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458861, 1490746458860>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458861, 1490746458861>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Strategia: FIFO
+Sostituisco: page: <tblcat.tbl, 1, 0, 1, 1490746458857, 1490746458857>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458860, 1490746458860>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458861, 1490746458860>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458861, 1490746458861>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 1, 1, 1490746458857, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458860, 1490746458860>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458861, 1490746458860>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458861, 1490746458861>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746458860, 1490746458860>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 1, 1, 1490746458860, 1490746458862>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458861, 1490746458860>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458861, 1490746458861>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458862, 1490746458862>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458861, 1490746458860>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458861, 1490746458861>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746458861, 1490746458860>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458862, 1490746458862>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746458861, 1490746458862>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458861, 1490746458861>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458862, 1490746458862>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458862, 1490746458862>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458861, 1490746458861>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 5, 0, 1, 1490746458861, 1490746458861>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458862, 1490746458862>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458862, 1490746458862>
+  3)page: <fldcat.tbl, 9, 1, 1, 1490746458861, 1490746458862>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 1, 1490746458858, 1490746458858>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 0 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458862, 1490746458862>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458862, 1490746458862>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458862, 1490746458862>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 1, 2, 1490746458858, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 1, 1490746458859, 1490746458859>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 1 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458862, 1490746458862>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458862, 1490746458862>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458862, 1490746458862>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 1, 2, 1490746458859, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 1, 1490746458859, 1490746458859>
+Devo fare pin di: { file: fldcat.tbl, block: 2 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458862, 1490746458862>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458862, 1490746458862>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458862, 1490746458862>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 1, 2, 1490746458859, 1490746458863>
+Devo fare pin di: { file: fldcat.tbl, block: 3 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458862, 1490746458862>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458862, 1490746458862>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458862, 1490746458862>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 7, 0, 1, 1490746458862, 1490746458862>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 1, 1, 1490746458862, 1490746458863>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458862, 1490746458862>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458862, 1490746458862>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Devo fare pin di: { file: fldcat.tbl, block: 4 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458863, 1490746458863>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458862, 1490746458862>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458862, 1490746458862>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 8, 0, 1, 1490746458862, 1490746458862>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458863, 1490746458863>
+  2)page: <fldcat.tbl, 4, 1, 1, 1490746458862, 1490746458863>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458862, 1490746458862>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Devo fare pin di: { file: fldcat.tbl, block: 5 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458863, 1490746458863>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458863, 1490746458863>
+  3)page: <fldcat.tbl, 9, 0, 1, 1490746458862, 1490746458862>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 9, 0, 1, 1490746458862, 1490746458862>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458863, 1490746458863>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458863, 1490746458863>
+  3)page: <fldcat.tbl, 5, 1, 1, 1490746458862, 1490746458864>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 1, 1490746458861, 1490746458861>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Devo fare pin di: { file: fldcat.tbl, block: 6 }
+Blocco già in buffer
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458863, 1490746458863>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458863, 1490746458863>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458864, 1490746458864>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 1, 2, 1490746458861, 1490746458864>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Devo fare pin di: { file: fldcat.tbl, block: 7 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 3, 0, 1, 1490746458863, 1490746458863>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458863, 1490746458863>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458864, 1490746458864>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 2, 1490746458864, 1490746458864>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 3, 0, 1, 1490746458863, 1490746458863>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 1, 1, 1490746458863, 1490746458864>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458863, 1490746458863>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458864, 1490746458864>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 2, 1490746458864, 1490746458864>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Devo fare pin di: { file: fldcat.tbl, block: 8 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458864, 1490746458864>
+  2)page: <fldcat.tbl, 4, 0, 1, 1490746458863, 1490746458863>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458864, 1490746458864>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 2, 1490746458864, 1490746458864>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Strategia: FIFO
+Sostituisco: page: <fldcat.tbl, 4, 0, 1, 1490746458863, 1490746458863>
+È stato effettuato il pin! Nuovo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458864, 1490746458864>
+  2)page: <fldcat.tbl, 8, 1, 1, 1490746458863, 1490746458864>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458864, 1490746458864>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 2, 1490746458864, 1490746458864>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Devo fare pin di: { file: fldcat.tbl, block: 9 }
+Blocco non in buffer ecco lo Stato del buffer: 
+  1)page: <fldcat.tbl, 7, 0, 1, 1490746458864, 1490746458864>
+  2)page: <fldcat.tbl, 8, 0, 1, 1490746458864, 1490746458864>
+  3)page: <fldcat.tbl, 5, 0, 1, 1490746458864, 1490746458864>
+  4)page: <tblcat.tbl, 0, 1, 4, 1490746458858, 1490746458858>
+  5)page: <fldcat.tbl, 6, 0, 2, 1490746458864, 1490746458864>
+  6)page: <fldcat.tbl, 0, 0, 2, 1490746458863, 1490746458862>
+  7)page: <fldcat.tbl, 1, 0, 2, 1490746458863, 1490746458863>
+  8)page: <fldcat.tbl, 2, 0, 2, 1490746458863, 1490746458863>
+Strategia: FIFO

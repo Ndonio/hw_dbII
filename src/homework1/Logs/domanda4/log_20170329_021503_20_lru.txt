@@ -1,0 +1,72 @@
+new transaction: 1
+recovering existing database
+transaction 1 committed
+new transaction: 2
+LOG FOR TRANSACTION: simpledb.tx.Transaction@14ae5a5
+----------------STATS----------------
+
+BUFFER SIZE : 20
+for transaction: simpledb.tx.Transaction@14ae5a5
+______________________________________
+Stats for : fldcat.tbl 
+
+ - Block read   : 0
+
+ - Block written: 0
+
+______________________________________
+______________________________________
+Stats for : tblcat.tbl 
+
+ - Block read   : 0
+
+ - Block written: 0
+
+______________________________________
+______________________________________
+Stats for : student.tbl 
+
+ - Block read   : 3
+ --->[2017/03/29 02:15:03.534]: <student.tbl,0>: [400, 0]
+ --->[2017/03/29 02:15:03.534]: <student.tbl,1>: [400, 0]
+ --->[2017/03/29 02:15:03.535]: <student.tbl,2>: [400, 0]
+
+ - Block written: 0
+
+______________________________________
+______________________________________
+Stats for : viewcat.tbl 
+
+ - Block read   : 1
+ --->[2017/03/29 02:15:03.531]: <viewcat.tbl,0>: [400, 0]
+
+ - Block written: 0
+
+______________________________________
+-------------------------------------
+-------------------------------------
+transaction 2 committed
+--------- Student's names---------1) joe
+2) amy
+3) max
+4) sue
+5) bob
+6) kim
+7) art
+8) pat
+9) lee
+10) pino
+11) anto
+12) mich
+13) mino
+14) male
+15) andr
+16) laur
+17) umbi
+18) fran
+19) mori
+20) silv
+21) anna
+22) lena
+23) mich
+---------End Student's names-----------

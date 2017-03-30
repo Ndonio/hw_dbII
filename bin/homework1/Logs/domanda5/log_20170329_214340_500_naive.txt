@@ -1,0 +1,66 @@
+new transaction: 1
+creating new database
+transaction 1 committed
+------ Building Table prova ------
+Schema: {
+    { -field: code, info: {type: 12, ,length: 10 } }
+    { -field: id, info: {type: 4, ,length: 0 } }
+    { -field: text, info: {type: 12, ,length: 10 } }
+   }
+
+TableInfo:{
+  - schema:  {
+    { -field: code, info: {type: 12, ,length: 10 } }
+    { -field: id, info: {type: 4, ,length: 0 } }
+    { -field: text, info: {type: 12, ,length: 10 } }
+   } , 
+  - table : prova 
+ }
+
+------ Table prova Builded ------
+------ Populating Table prova with 10000 records ------
+new transaction: 2
+transaction 2 committed
+------ 10000 record added to prova ------
+Totali:  < writtenRecords: 10000, readRecords: 0, writtenFields : 30000, readFields: 0 >
+prova.tbl < blkRead: 0, blkWrite: 4000 >
+
+-------- Read all 10000 records fromprova ----------
+new transaction: 3
+transaction 3 committed
+
+-------- 10000 record read from prova ----------
+Totali:  < writtenRecords: 0, readRecords: 10000, writtenFields : 0, readFields: 0 >
+prova.tbl < blkRead: 1999, blkWrite: 0 >
+
+-------- Delete 5000 records from prova ----------
+new transaction: 4
+transaction 4 committed
+
+-------- Deleted 5001 records from prova ----------
+Totali:  < writtenRecords: 0, readRecords: 9950, writtenFields : 0, readFields: 9949 >
+prova.tbl < blkRead: 1990, blkWrite: 1918 >
+
+-------- Read all 4999 records fromprova ----------
+new transaction: 5
+transaction 5 committed
+
+-------- 4999 record read from prova ----------
+Totali:  < writtenRecords: 0, readRecords: 4999, writtenFields : 0, readFields: 0 >
+prova.tbl < blkRead: 1999, blkWrite: 0 >
+
+-------- Add additional 7000 records to prova----------
+new transaction: 6
+transaction 6 committed
+
+-------- 7000 records added to prova----------
+Totali:  < writtenRecords: 7000, readRecords: 0, writtenFields : 21000, readFields: 0 >
+prova.tbl < blkRead: 1999, blkWrite: 2718 >
+
+-------- Read all records from prova----------
+new transaction: 7
+transaction 7 committed
+
+-------- 11999 records were read from prova----------
+Totali:  < writtenRecords: 0, readRecords: 11999, writtenFields : 0, readFields: 0 >
+prova.tbl < blkRead: 2399, blkWrite: 0 >
